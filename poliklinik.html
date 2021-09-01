@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rumah Sakit Waras - Poliklinik</title>
+    <link rel="stylesheet" type="text/css" href="poliklinik.css" />
+    <link rel="shortcut icon" href="https://img.icons8.com/plasticine/100/000000/hospital-room.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:wght@800&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <div class="judul">
+        <h2>RUMAH SAKIT WARAS</h2>
+      </div>
+      <ul class="slide">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="poliklinik.html">Poliklinik</a></li>
+        <li><a href="layanandanfasilitas.html">Layanan dan Fasilitas</a></li>
+        <li><a href="tentangkami.html">Tentang kami</a></li>
+      </ul>
+
+      <div class="menu-toggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <main>
+      <script src="uas.js"></script>
+
+      <div class="jpoli">
+        <h3 id="type" style="color: green; text-shadow: 2px 2px 2px aqua"></h3>
+        <script type="text/javascript">
+          var i = 0;
+          var txt = 'Rumah Sakit Waras';
+          var speed = 150;
+          function type() {
+            document.getElementById('type').innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(type, speed);
+          }
+          type();
+        </script>
+        <div id="judpol">
+          <h1>Poliklinik</h1>
+          <div id="konten">Poliklinik adalah tempat pelayanan yang bertugas melakukan pemeriksaan pasien sesuai bidang masing - masing dengan melihat indikasi atau gejala – gejala yang di derita oleh pasien sesuai prosedur yang benar</div>
+        </div>
+      </div>
+
+      <div class="dafpol">
+        <div class="umum">
+          <img class="gambar" src="poliklinik/umum.png" alt="" />
+          <h3 style="text-align: center">Poli Umum</h3>
+        </div>
+        <div class="anak">
+          <img class="gambar" src="poliklinik/anak.png" alt="" />
+          <h3 style="text-align: center">Poli Anak</h3>
+        </div>
+        <div class="radiologi">
+          <img class="gambar" src="poliklinik/radiologi.png" alt="" />
+          <h3 style="text-align: center">Poli Radiologi</h3>
+        </div>
+        <div class="kadungan">
+          <img class="gambar" src="poliklinik/kadungan.png" alt="" />
+          <h3 style="text-align: center">Poli Kadungan</h3>
+        </div>
+        <div class="dalam">
+          <img class="gambar" src="poliklinik/dalam.png" alt="" />
+          <h3 style="text-align: center">Poli Dalam</h3>
+        </div>
+        <div class="jiwa">
+          <img class="gambar" src="poliklinik/jiwa.png" alt="" />
+          <h3 style="text-align: center">Poli Jiwa</h3>
+        </div>
+        <div class="tht">
+          <img class="gambar" src="poliklinik/tht.png" alt="" />
+          <h3 style="text-align: center">Poli THT</h3>
+        </div>
+        <div class="mata">
+          <img class="gambar" src="poliklinik/mata.png" alt="" />
+          <h3 style="text-align: center">Poli Mata</h3>
+        </div>
+        <div class="gigi">
+          <img class="gambar" src="poliklinik/gigi.png" alt="" />
+          <h3 style="text-align: center">Poli Gigi</h3>
+        </div>
+        <div class="saraf">
+          <img class="gambar" src="poliklinik/saraf.png" alt="" />
+          <h3 style="text-align: center">Poli Saraf</h3>
+        </div>
+        <div class="bedah">
+          <img class="gambar" src="poliklinik/bedah.png" alt="" />
+          <h3 style="text-align: center">Poli Bedah</h3>
+        </div>
+        <div class="gizi">
+          <img class="gambar" src="poliklinik/gizi.png" alt="" />
+          <h3 style="text-align: center">Poli Gizi</h3>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
